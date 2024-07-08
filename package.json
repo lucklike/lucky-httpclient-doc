@@ -1,0 +1,20 @@
+{
+  "name": "lucky-httpclient-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lucklike/lucky-httpclient-doc.git",
+  "author": "1814375626@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.14",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.37",
+    "@vuepress/plugin-search": "^2.0.0-rc.37",
+    "@vuepress/theme-default": "^2.0.0-rc.37",
+    "vuepress": "^2.0.0-rc.14",
+    "vuepress-theme-hope": "^2.0.0-rc.50"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
